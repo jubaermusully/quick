@@ -1,0 +1,56 @@
+/*common css start*/
+body{
+   font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+}
+/*common css end*/
+
+/*header start*/
+header{
+    padding: 10px 0px;
+    border: 1px solid black;
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid black;*/
+}
+
+.logo {
+	float: left;
+	width: 10%;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	float: left;
+	width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 55%;
+	/*border: 1px solid red;*/
+}
+.menu{}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	margin-top: 1px;
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 0px 25px;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+/*header end*/
+/*banner start*/
+
+/*banner end*/
